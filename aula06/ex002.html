@@ -18,18 +18,15 @@
     </style>
 </head>
 <body>
-    <h1>
+    <h1> 
         Olá, Mundo!
     </h1>
     <p>
         Estou contente com meu desenvolvimento !
     </p>
     <script> 
-    //não é necessarios utilizar o window no inicio. ex: window.alert
-    
-        alert('Minha primeira mensagem em JS')  
-        confirm('Está gostando de JavaScript ?') // Janela com botão OK
-        prompt('Qual é seu nome ?') // Vai gerar uma caixa de perguntas
+        var nome = window.prompt('Qual é seu nome ?') 
+        alert('É um prazer em te conhecer,' + nome + '!')
     </script>
 </body>
 </html>

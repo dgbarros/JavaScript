@@ -14,22 +14,27 @@
 
         h1{
             color: yellow;
+            text-align: center;
+        }
+        p{
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <h1>
+    <h1> 
         Olá, Mundo!
     </h1>
     <p>
         Estou contente com meu desenvolvimento !
     </p>
     <script> 
-    //não é necessarios utilizar o window no inicio. ex: window.alert
-    
-        alert('Minha primeira mensagem em JS')  
-        confirm('Está gostando de JavaScript ?') // Janela com botão OK
-        prompt('Qual é seu nome ?') // Vai gerar uma caixa de perguntas
+       var n1 = Number(window.prompt('Digite um número'))
+       
+       var n2 = Number(window.prompt ('Digite outro número'))
+
+       var s = n1 + n2 
+       window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
     </script>
 </body>
 </html>
